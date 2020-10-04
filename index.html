@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Patreon | Main Page</title>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div id="wrapper">
+
+		<!-- main section -->
+
+		<section class="main">
+			<div class="background">
+				<div class="background-shadow"></div>
+			</div>
+			<!-- header start -->
+			<header class="header">
+				<div class="header-logo">
+					<h1>Ананасик</h1>
+					<p>Тайная секта ананасиков.</p>
+				</div>
+				<div class="header-menu">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Ананасология</a></li>
+						<li><a href="#">Поклонение ананасам</a></li>
+						<li><a href="#">Ананасовые группы</a></li>
+						<li><a href="#">Контакты с ананасами</a></li>
+					</ul>
+				</div>
+			</header>
+			<!-- header end -->
+
+			<div class="main-content">
+				<div class="content-center tabs">
+					<div class="content-left">
+						<h1>Ананасик - это круто!</h1>
+						<p>Сайт создан при поддержке Ахмета Ахметовича (армянского продавца ананасов) для чего-то там, чисто длинный текст, чтобы вёрстка не сломалась.</p>
+						<div class="content-btn tab-btn">
+							<button data-id="tab-1">Войти</button>
+							<button data-id="tab-2">Регистрация</button>	
+						</div>
+					</div>
+					<div class="form active tab-content" data-id="tab-2">
+						<form method="POST">
+							<h1>Регистрация</h1>
+							<div class="group-form">
+								<input type="text" placeholder="Name">
+								<input type="text" placeholder="Email">
+							</div>
+							<div class="group-form">
+								<input type="text" placeholder="Password">
+								<input type="text" placeholder="Password Repeat">
+							</div>
+							<!-- <div class="form-radio">
+								<label for=""><input type="checkbox" value="Pineapple">Ананас</label>
+								<label for=""><input type="checkbox" value="Kira">Поклоник(ца)</label>
+							</div> -->
+							<button type="submit">Зарегистрироваться</button>
+						</form>
+					</div>
+					<div class="form tab-content" data-id="tab-1">
+						<form method="POST">
+							<h1>Авторизация</h1>
+							<div class="group-form">
+								<input type="text" placeholder="Email">
+								<input type="text" placeholder="Password">
+							</div>
+							<button type="submit">Войти</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
